@@ -13,7 +13,7 @@
 
         <form action="" class="form">
             <label for="input-cpf">Digite um cpf:</label>
-            <input type="text" id="input-cpf" />
+            <input type="text" id="input-cpf" oninput="mask(this)"/>
 
             <button class="btn">Enviar</button>
         </form>
@@ -21,6 +21,7 @@
 
         </p>
     </section>
+    <script src="./assets/js/mask.js"></script>
     <script src="./assets/js/validacpf.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
